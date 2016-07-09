@@ -1,0 +1,178 @@
+
+body{
+    background: #ebebeb;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+    color: #222;
+    font-size: 12px;
+}
+*{padding: 0;margin: 0;}
+.top_div{
+    background: #008ead;
+    width: 100%;
+    height: 400px;
+}
+.login_form{
+    background: rgb(255, 255, 255);
+    margin: -100px auto auto;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 8px;
+    border-image: none;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.login_p1{
+    padding: 30px 0 10px;
+    position: relative;
+}
+.u_logo{
+    /*background: url("/assets/images/username.png") no-repeat;*/
+    padding: 2px 10px 10px 30px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.ipt{
+    border: 1px solid #d3d3d3;
+    width: 290px;
+    border-radius: 4px;
+    padding: 10px 10px 10px 35px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+.ipt:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.login_p2{
+    position: relative;
+}
+.p_logo{
+    /*background: url("/assets/images/password.png") no-repeat;*/
+    padding: 2px 10px 10px 30px;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+}
+.p_logo2{
+    /*background: url("/assets/images/password.png") no-repeat;*/
+    padding: 10px 10px 10px 30px;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+}
+a{
+    text-decoration: none;
+}
+.tou_style{
+    width: 165px;
+    height: 96px;
+    position: absolute;
+}
+
+.tou{
+    background: url("/assets/images/tou.png") no-repeat;
+    width: 97px;
+    height: 92px;
+    position: absolute;
+    top: -87px;
+    left: 140px;
+}
+.left_hand{
+    background: url("/assets/images/left_hand.png") no-repeat;
+    width: 32px;
+    height: 37px;
+    position: absolute;
+    top: -38px;
+    left: 150px;
+}
+.right_hand{
+    background: url("/assets/images/right_hand.png") no-repeat;
+    width: 32px;
+    height: 37px;
+    position: absolute;
+    top: -38px;
+    right: -64px;
+}
+.initial_left_hand{
+    background: url("/assets/images/hand.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: -12px;
+    left: 100px;
+}
+.initial_right_hand{
+    background: url("/assets/images/hand.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: -12px;
+    right: -112px;
+}
+.left_handing{
+    background: url("/assets/images/left-handing.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: -24px;
+    left: 139px;
+}
+.right_handing{
+    background: url("/assets/images/right_handing.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: -21px;
+    left: 210px;
+}
+.forget_psw{
+    height: 55px;
+    line-height: 50px;
+    margin-top: 20px;
+    border-top: 1px solid rgb(231, 231, 231);
+}
+.forget_psw p{
+    margin: 0 35px 20px 45px;
+}
+.span_left{
+    float: left;
+}
+.span_left a{
+    color: rgb(204, 204, 204);
+}
+.span_right{
+    float: right;
+}
+.span_right a{
+    color: rgb(204, 204, 204);
+    margin-right: 10px;
+}
+.login_a{
+    background: rgb(0, 142, 173);
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(26, 117, 152);
+    border-image: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.register_form{
+    background: rgb(255, 255, 255);
+    margin: -100px auto auto;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 8px;
+    border-image: none;
+    width: 400px;
+    height: 265px;
+    text-align: center;
+}
+.r_p{
+    padding: 10px 0 0;
+    position: relative;
+}
